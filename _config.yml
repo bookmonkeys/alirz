@@ -1,9 +1,9 @@
 ---
 #-------------------------------
 # General Site Settings
-title: Ali Raza
+title: Foo Bar
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Passionate Software Architect, Entrepreneur, and Coffee Enthusiast
+description: Passionateitect, Entrepreneur, and Coffee Enthusiast
 baseurl: "/alirz" # the subpath of your site, e.g. /blog
 url: "https://bookmonkeys.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -17,7 +17,7 @@ author:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I am Ali! Builder of stuff.
+  hero__title: I am stuff.
   hero__description: As a detail-oriented software architect, I bring precision and passion to every project I tackle. From building cutting-edge software to exploring the latest trends in civic tech, gaming, and 3D printing, I am always pushing the boundaries of what's possible. In my free time, I enjoy sharing my insights and experiences through my blog, giving readers a glimpse into the exciting world of tech and innovation. Let's build something cool together!
   hero__image: "/images/743962.jpeg"
 
