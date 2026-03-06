@@ -17,9 +17,26 @@ author:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: I am stuff.
+  hero__title: I stuff.
   hero__description: As a detail-oriented software architect, I bring precision and passion to every project I tackle. From building cutting-edge software to exploring the latest trends in civic tech, gaming, and 3D printing, I am always pushing the boundaries of what's possible. In my free time, I enjoy sharing my insights and experiences through my blog, giving readers a glimpse into the exciting world of tech and innovation. Let's build something cool together!
   hero__image: "/images/743962.jpeg"
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: dejavu87@gmail.com # Add your email for contact form
+  description: Joseph comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+
+# NOTE
+# Joseph comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: aliirz # add your shortname for Disqus Comment. For example anvodstudio-demo
+
+#-------------------------------
+# Google Analytics
+google-analytics: G-X5MSM54ZQZ # Add your identifier. For example UA-99631805-1.
 
 #-------------------------------
 # Build Settings
@@ -45,6 +62,15 @@ defaults:
 include:
   - _pages
 
+# Tags
+tag_page_dir: tag
+tag_page_layout: tag_page
+tag_permalink_style: /:title
+
 sass:
   sass_dir: _sass
   style: compressed
+
+twitter:
+  username: aliirz
+  card: summary
